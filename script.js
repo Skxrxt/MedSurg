@@ -20,82 +20,131 @@ const GITHUB_API_URL =
 
 async function loadQuizList() {
 
-    const quizList = document.getElementById("quizList");
+    const quizList =
+        document.getElementById("quizList");
 
-    quizList.innerHTML = "<p>Loading quizzes...</p>";
+    quizList.innerHTML =
+        "<p>Loading quizzes...</p>";
 
     try {
 
-        const response = await fetch(GITHUB_API_URL, {
-            headers: {
-                "Accept": "application/vnd.github+json"
-            }
-        });
+        const response =
+            await fetch(GITHUB_API_URL, {
+                headers: {
+                    "Accept":
+                        "application/vnd.github+json"
+                }
+            });
+
 
         if (!response.ok) {
+
             throw new Error(
                 "Could not load quizzes from GitHub."
             );
+
         }
 
-        const files = await response.json();
 
-        // Only keep .txt files
-        const quizzes = files.filter(file =>
-            file.type === "file" &&
-            file.name.toLowerCase().endsWith(".txt")
-        );
+        const files =
+            await response.json();
+
+
+        // ====================================
+        // ONLY USE .TXT FILES
+        // ====================================
+
+        const quizzes =
+            files.filter(file =>
+                file.type === "file" &&
+                file.name
+                    .toLowerCase()
+                    .endsWith(".txt")
+            );
 
 
         quizList.innerHTML = "";
 
 
+        // ====================================
+        // NO QUIZZES FOUND
+        // ====================================
+
         if (quizzes.length === 0) {
 
-            quizList.innerHTML =
-                "<p>No quizzes found.</p>";
+            quizList.innerHTML = `
+
+                <div class="error-message">
+
+                    <strong>
+                        No quizzes found.
+                    </strong>
+
+                    <p>
+                        There are no .txt quiz files
+                        in the GitHub quizzes folder.
+                    </p>
+
+                </div>
+
+            `;
 
             return;
         }
 
 
-        // Sort alphabetically
+        // ====================================
+        // SORT QUIZZES ALPHABETICALLY
+        // ====================================
+
         quizzes.sort((a, b) =>
             a.name.localeCompare(b.name)
         );
 
+
+        // ====================================
+        // CREATE QUIZ BUTTONS
+        // ====================================
 
         quizzes.forEach((quiz) => {
 
             const button =
                 document.createElement("button");
 
-            button.className = "quiz-button";
 
-            // Convert filename into readable name
+            button.className =
+                "quiz-button";
+
+
             button.textContent =
                 formatQuizName(quiz.name);
 
 
-            button.addEventListener("click", () => {
+            button.addEventListener(
+                "click",
+                () => {
 
-                startQuiz(
-                    quiz.download_url,
-                    formatQuizName(quiz.name)
-                );
+                    startQuiz(
+                        quiz.download_url,
+                        formatQuizName(quiz.name)
+                    );
 
-            });
+                }
+            );
 
 
             quizList.appendChild(button);
 
         });
 
+
     } catch (error) {
 
         console.error(error);
 
+
         quizList.innerHTML = `
+
             <div class="error-message">
 
                 <strong>
@@ -103,34 +152,41 @@ async function loadQuizList() {
                 </strong>
 
                 <p>
-                    Make sure the GitHub repository
-                    and quizzes folder are accessible.
+                    The quiz list could not be
+                    retrieved from GitHub.
                 </p>
 
                 <button
-                    id="errorBackButton"
+                    id="retryQuizListButton"
                     class="back-button"
                 >
-                    ← Go Back
+                    Try Again
                 </button>
 
             </div>
+
         `;
 
 
-        const backButton =
-            document.getElementById("errorBackButton");
+        const retryButton =
+            document.getElementById(
+                "retryQuizListButton"
+            );
 
-        if (backButton) {
 
-            backButton.addEventListener(
+        if (retryButton) {
+
+            retryButton.addEventListener(
                 "click",
                 () => {
-                    returnToMenu();
+
+                    loadQuizList();
+
                 }
             );
 
         }
+
     }
 }
 
@@ -146,15 +202,16 @@ function formatQuizName(filename) {
         filename.replace(/\.txt$/i, "");
 
 
-    // Replace underscores and hyphens
+    // Replace _ and - with spaces
     name =
         name.replace(/[_-]+/g, " ");
 
 
     // Capitalize each word
     name =
-        name.replace(/\b\w/g, letter =>
-            letter.toUpperCase()
+        name.replace(
+            /\b\w/g,
+            letter => letter.toUpperCase()
         );
 
 
@@ -172,33 +229,55 @@ function startQuiz(filename, name) {
     selectedQuizName = name;
 
     questions = [];
+
     currentQuestion = 0;
+
     score = 0;
 
 
+    // ====================================
+    // SHOW QUIZ SCREEN
+    // ====================================
+
     document.getElementById("menu")
         .style.display = "none";
+
 
     document.getElementById("quizScreen")
         .style.display = "block";
 
 
-    document.getElementById("quizTitle")
-        .textContent = name;
-
+    // ====================================
+    // HIDE OTHER SCREENS
+    // ====================================
 
     document.getElementById("checkpoint")
         .style.display = "none";
 
+
     document.getElementById("stoppedScreen")
         .style.display = "none";
+
 
     document.getElementById("completeScreen")
         .style.display = "none";
 
 
+    // ====================================
+    // QUIZ TITLE
+    // ====================================
+
+    document.getElementById("quizTitle")
+        .textContent = name;
+
+
+    // ====================================
+    // RESET BUTTONS
+    // ====================================
+
     document.getElementById("submitButton")
         .style.display = "block";
+
 
     document.getElementById("nextButton")
         .style.display = "none";
@@ -208,12 +287,28 @@ function startQuiz(filename, name) {
         .innerHTML = "";
 
 
+    document.getElementById("question")
+        .textContent = "Loading quiz...";
+
+
+    document.getElementById("choices")
+        .innerHTML = "";
+
+
+    document.getElementById("questionNumber")
+        .textContent = "";
+
+
+    // ====================================
+    // LOAD QUIZ
+    // ====================================
+
     loadQuiz(filename);
 }
 
 
 // ========================================
-// LOAD QUIZ TXT FILE FROM GITHUB
+// LOAD QUIZ TXT FROM GITHUB
 // ========================================
 
 async function loadQuiz(downloadURL) {
@@ -237,19 +332,36 @@ async function loadQuiz(downloadURL) {
             await response.text();
 
 
+        // ====================================
+        // PARSE QUESTIONS
+        // ====================================
+
         parseQuestions(text);
 
+
+        // ====================================
+        // CHECK IF QUESTIONS EXIST
+        // ====================================
 
         if (questions.length === 0) {
 
             throw new Error(
-                "No questions were found."
+                "No valid questions were found."
             );
 
         }
 
 
+        // ====================================
+        // RANDOMIZE QUESTIONS
+        // ====================================
+
         shuffleQuestions();
+
+
+        // ====================================
+        // DISPLAY FIRST QUESTION
+        // ====================================
 
         displayQuestion();
 
@@ -259,61 +371,73 @@ async function loadQuiz(downloadURL) {
         console.error(error);
 
 
-        document.getElementById("question")
-            .innerHTML = `
-
-                <div class="error-message">
-
-                    <strong>
-                        Unable to load this quiz.
-                    </strong>
-
-                    <p>
-                        The quiz file could not be
-                        found or could not be read.
-                    </p>
-
-                    <button
-                        id="errorBackButton"
-                        class="back-button"
-                    >
-                        ← Go Back
-                    </button>
-
-                </div>
-
-            `;
-
-
-        document.getElementById("choices")
-            .innerHTML = "";
-
-
-        document.getElementById("questionNumber")
-            .textContent = "";
-
-
-        document.getElementById("submitButton")
-            .style.display = "none";
-
-
-        document.getElementById("nextButton")
-            .style.display = "none";
-
-
-        document.getElementById("result")
-            .innerHTML = "";
-
-
-        document.getElementById("errorBackButton")
-            .addEventListener(
-                "click",
-                () => {
-                    returnToMenu();
-                }
-            );
+        showQuizError();
 
     }
+}
+
+
+// ========================================
+// SHOW QUIZ ERROR
+// ========================================
+
+function showQuizError() {
+
+    document.getElementById("question")
+        .innerHTML = `
+
+            <div class="error-message">
+
+                <strong>
+                    Unable to load this quiz.
+                </strong>
+
+                <p>
+                    The quiz file could not be
+                    found or could not be read.
+                </p>
+
+                <button
+                    id="errorBackButton"
+                    class="back-button"
+                >
+                    ← Go Back
+                </button>
+
+            </div>
+
+        `;
+
+
+    document.getElementById("choices")
+        .innerHTML = "";
+
+
+    document.getElementById("questionNumber")
+        .textContent = "";
+
+
+    document.getElementById("submitButton")
+        .style.display = "none";
+
+
+    document.getElementById("nextButton")
+        .style.display = "none";
+
+
+    document.getElementById("result")
+        .innerHTML = "";
+
+
+    document.getElementById("errorBackButton")
+        .addEventListener(
+            "click",
+            () => {
+
+                returnToMenu();
+
+            }
+        );
 }
 
 
@@ -325,8 +449,12 @@ function parseQuestions(text) {
 
     questions = [];
 
+
     const lines =
-        text.replace(/\r/g, "").split("\n");
+        text
+            .replace(/\r/g, "")
+            .split("\n");
+
 
     let current = null;
 
@@ -362,12 +490,16 @@ function parseQuestions(text) {
 
             };
 
+
             continue;
         }
 
 
+        // Ignore lines outside a question
         if (!current) {
+
             continue;
+
         }
 
 
@@ -381,6 +513,7 @@ function parseQuestions(text) {
                 line
                     .substring("QUESTION:".length)
                     .trim();
+
 
             continue;
         }
@@ -398,7 +531,9 @@ function parseQuestions(text) {
 
             current.choices.push(choice);
 
+
             current.choice_count++;
+
 
             continue;
         }
@@ -420,6 +555,7 @@ function parseQuestions(text) {
             current.correct_answer =
                 answerToIndex(answer);
 
+
             continue;
         }
 
@@ -435,6 +571,7 @@ function parseQuestions(text) {
                     .substring("RATIONALE:".length)
                     .trim();
 
+
             continue;
         }
 
@@ -445,12 +582,24 @@ function parseQuestions(text) {
 
         if (line === "END") {
 
-            questions.push(current);
+            // Only add valid questions
+            if (
+                current.question !== "" &&
+                current.choices.length >= 2 &&
+                current.correct_answer >= 0
+            ) {
+
+                questions.push(current);
+
+            }
+
 
             current = null;
 
+
             continue;
         }
+
     }
 }
 
@@ -468,6 +617,7 @@ function answerToIndex(answer) {
     if (answer === "C") return 2;
 
     if (answer === "D") return 3;
+
 
     return -1;
 }
@@ -499,6 +649,7 @@ function shuffleQuestions() {
             questions[j],
             questions[i]
         ];
+
     }
 }
 
@@ -513,17 +664,31 @@ function displayQuestion() {
         questions[currentQuestion];
 
 
+    // ====================================
+    // QUESTION NUMBER
+    // ====================================
+
     document.getElementById("questionNumber")
         .textContent =
             `Question ${
                 currentQuestion + 1
-            } of ${questions.length}`;
+            } of ${
+                questions.length
+            }`;
 
+
+    // ====================================
+    // QUESTION TEXT
+    // ====================================
 
     document.getElementById("question")
         .textContent =
             q.question;
 
+
+    // ====================================
+    // CLEAR OLD CHOICES
+    // ====================================
 
     const choicesContainer =
         document.getElementById("choices");
@@ -531,6 +696,10 @@ function displayQuestion() {
 
     choicesContainer.innerHTML = "";
 
+
+    // ====================================
+    // CREATE ANSWER CHOICES
+    // ====================================
 
     q.choices.forEach(
         (choice, index) => {
@@ -563,17 +732,30 @@ function displayQuestion() {
 
 
             choicesContainer.appendChild(label);
+
         }
     );
 
+
+    // ====================================
+    // RESET RESULT
+    // ====================================
 
     document.getElementById("result")
         .innerHTML = "";
 
 
+    // ====================================
+    // SHOW SUBMIT
+    // ====================================
+
     document.getElementById("submitButton")
         .style.display = "block";
 
+
+    // ====================================
+    // HIDE NEXT
+    // ====================================
 
     document.getElementById("nextButton")
         .style.display = "none";
@@ -595,13 +777,21 @@ document.getElementById("submitButton")
                 );
 
 
+            // ====================================
+            // NO ANSWER SELECTED
+            // ====================================
+
             if (!selected) {
 
                 document.getElementById("result")
-                    .innerHTML =
-                        "<p>Please select an answer.</p>";
+                    .innerHTML = `
+                        <p>
+                            Please select an answer.
+                        </p>
+                    `;
 
                 return;
+
             }
 
 
@@ -620,6 +810,10 @@ document.getElementById("submitButton")
             q.is_correct =
                 userAnswer === q.correct_answer;
 
+
+            // ====================================
+            // CORRECT
+            // ====================================
 
             if (q.is_correct) {
 
@@ -643,7 +837,14 @@ document.getElementById("submitButton")
 
                     `;
 
-            } else {
+            }
+
+
+            // ====================================
+            // INCORRECT
+            // ====================================
+
+            else {
 
                 document.getElementById("result")
                     .innerHTML = `
@@ -671,10 +872,14 @@ document.getElementById("submitButton")
                         </div>
 
                     `;
+
             }
 
 
-            // Disable answers
+            // ====================================
+            // DISABLE ANSWERS
+            // ====================================
+
             document.querySelectorAll(
                 'input[name="answer"]'
             ).forEach(input => {
@@ -684,9 +889,17 @@ document.getElementById("submitButton")
             });
 
 
+            // ====================================
+            // HIDE SUBMIT
+            // ====================================
+
             document.getElementById("submitButton")
                 .style.display = "none";
 
+
+            // ====================================
+            // SHOW NEXT
+            // ====================================
 
             document.getElementById("nextButton")
                 .style.display = "block";
@@ -717,15 +930,29 @@ document.getElementById("nextButton")
                 currentQuestion < questions.length
             ) {
 
+                // Show current score
+                document.getElementById(
+                    "checkpointScore"
+                ).textContent =
+                    `Score: ${
+                        score
+                    } / ${
+                        currentQuestion
+                    }`;
+
+
+                // Hide quiz
                 document.getElementById("quizScreen")
                     .style.display = "none";
 
 
+                // Show checkpoint
                 document.getElementById("checkpoint")
                     .style.display = "block";
 
 
                 return;
+
             }
 
 
@@ -741,8 +968,13 @@ document.getElementById("nextButton")
                 finishQuiz();
 
                 return;
+
             }
 
+
+            // ====================================
+            // NEXT QUESTION
+            // ====================================
 
             displayQuestion();
 
@@ -759,14 +991,17 @@ document.getElementById("continueButton")
         "click",
         () => {
 
+            // Hide checkpoint
             document.getElementById("checkpoint")
                 .style.display = "none";
 
 
+            // Show quiz
             document.getElementById("quizScreen")
                 .style.display = "block";
 
 
+            // Display next question
             displayQuestion();
 
         }
@@ -782,18 +1017,22 @@ document.getElementById("stopButton")
         "click",
         () => {
 
+            // Hide checkpoint
             document.getElementById("checkpoint")
                 .style.display = "none";
 
 
+            // Hide quiz
             document.getElementById("quizScreen")
                 .style.display = "none";
 
 
+            // Show stopped screen
             document.getElementById("stoppedScreen")
                 .style.display = "block";
 
 
+            // Show score
             document.getElementById("stoppedScore")
                 .textContent =
                     `Score: ${
@@ -812,28 +1051,38 @@ document.getElementById("stopButton")
 
 function finishQuiz() {
 
+    // Hide quiz
     document.getElementById("quizScreen")
         .style.display = "none";
 
 
+    // Show complete screen
     document.getElementById("completeScreen")
         .style.display = "block";
 
 
+    // Calculate percentage
     const percentage =
         Math.round(
             (score / questions.length) * 100
         );
 
 
+    // Final score
     document.getElementById("finalScore")
         .textContent =
-            `${score} / ${questions.length}`;
+            `Score: ${
+                score
+            } / ${
+                questions.length
+            }`;
 
 
+    // Final percentage
     document.getElementById("finalPercentage")
         .textContent =
             `${percentage}%`;
+
 }
 
 
@@ -861,6 +1110,7 @@ document.getElementById("retakeButton")
 
 function returnToMenu() {
 
+    // Reset quiz data
     questions = [];
 
     currentQuestion = 0;
@@ -872,27 +1122,34 @@ function returnToMenu() {
     selectedQuizName = "";
 
 
+    // Hide quiz
     document.getElementById("quizScreen")
         .style.display = "none";
 
 
+    // Hide checkpoint
     document.getElementById("checkpoint")
         .style.display = "none";
 
 
+    // Hide stopped screen
     document.getElementById("stoppedScreen")
         .style.display = "none";
 
 
+    // Hide complete screen
     document.getElementById("completeScreen")
         .style.display = "none";
 
 
+    // Show menu
     document.getElementById("menu")
         .style.display = "block";
 
 
+    // Reload quiz list from GitHub
     loadQuizList();
+
 }
 
 
