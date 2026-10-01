@@ -1,0 +1,18 @@
+[
+    {
+        "file": "cardio.txt",
+        "name": "Cardiology"
+    },
+    {
+        "file": "fluids.txt",
+        "name": "Fluids & Electrolytes"
+    },
+    {
+        "file": "pharmacology.txt",
+        "name": "Pharmacology"
+    },
+    {
+        "file": "respiratory.txt",
+        "name": "Respiratory"
+    }
+]
