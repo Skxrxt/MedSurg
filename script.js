@@ -1,6 +1,7 @@
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
+let answeredQuestions = 0;
 
 let selectedQuiz = "";
 let selectedQuizName = "";
@@ -50,10 +51,6 @@ async function loadQuizList() {
             await response.json();
 
 
-        // ====================================
-        // ONLY USE .TXT FILES
-        // ====================================
-
         const quizzes =
             files.filter(file =>
                 file.type === "file" &&
@@ -65,10 +62,6 @@ async function loadQuizList() {
 
         quizList.innerHTML = "";
 
-
-        // ====================================
-        // NO QUIZZES FOUND
-        // ====================================
 
         if (quizzes.length === 0) {
 
@@ -93,18 +86,10 @@ async function loadQuizList() {
         }
 
 
-        // ====================================
-        // SORT QUIZZES ALPHABETICALLY
-        // ====================================
-
         quizzes.sort((a, b) =>
             a.name.localeCompare(b.name)
         );
 
-
-        // ====================================
-        // CREATE QUIZ BUTTONS
-        // ====================================
 
         quizzes.forEach((quiz) => {
 
@@ -197,17 +182,14 @@ async function loadQuizList() {
 
 function formatQuizName(filename) {
 
-    // Remove .txt
     let name =
         filename.replace(/\.txt$/i, "");
 
 
-    // Replace _ and - with spaces
     name =
         name.replace(/[_-]+/g, " ");
 
 
-    // Capitalize each word
     name =
         name.replace(
             /\b\w/g,
@@ -234,10 +216,8 @@ function startQuiz(filename, name) {
 
     score = 0;
 
+    answeredQuestions = 0;
 
-    // ====================================
-    // SHOW QUIZ SCREEN
-    // ====================================
 
     document.getElementById("menu")
         .style.display = "none";
@@ -246,10 +226,6 @@ function startQuiz(filename, name) {
     document.getElementById("quizScreen")
         .style.display = "block";
 
-
-    // ====================================
-    // HIDE OTHER SCREENS
-    // ====================================
 
     document.getElementById("checkpoint")
         .style.display = "none";
@@ -263,17 +239,9 @@ function startQuiz(filename, name) {
         .style.display = "none";
 
 
-    // ====================================
-    // QUIZ TITLE
-    // ====================================
-
     document.getElementById("quizTitle")
         .textContent = name;
 
-
-    // ====================================
-    // RESET BUTTONS
-    // ====================================
 
     document.getElementById("submitButton")
         .style.display = "block";
@@ -298,10 +266,6 @@ function startQuiz(filename, name) {
     document.getElementById("questionNumber")
         .textContent = "";
 
-
-    // ====================================
-    // LOAD QUIZ
-    // ====================================
 
     loadQuiz(filename);
 }
@@ -332,16 +296,8 @@ async function loadQuiz(downloadURL) {
             await response.text();
 
 
-        // ====================================
-        // PARSE QUESTIONS
-        // ====================================
-
         parseQuestions(text);
 
-
-        // ====================================
-        // CHECK IF QUESTIONS EXIST
-        // ====================================
 
         if (questions.length === 0) {
 
@@ -352,16 +308,8 @@ async function loadQuiz(downloadURL) {
         }
 
 
-        // ====================================
-        // RANDOMIZE QUESTIONS
-        // ====================================
-
         shuffleQuestions();
 
-
-        // ====================================
-        // DISPLAY FIRST QUESTION
-        // ====================================
 
         displayQuestion();
 
@@ -369,7 +317,6 @@ async function loadQuiz(downloadURL) {
     } catch (error) {
 
         console.error(error);
-
 
         showQuizError();
 
@@ -464,10 +411,6 @@ function parseQuestions(text) {
         line = line.trim();
 
 
-        // ====================================
-        // MCQ START
-        // ====================================
-
         if (line === "[MCQ]") {
 
             current = {
@@ -495,17 +438,12 @@ function parseQuestions(text) {
         }
 
 
-        // Ignore lines outside a question
         if (!current) {
 
             continue;
 
         }
 
-
-        // ====================================
-        // QUESTION
-        // ====================================
 
         if (line.startsWith("QUESTION:")) {
 
@@ -519,10 +457,6 @@ function parseQuestions(text) {
         }
 
 
-        // ====================================
-        // ANSWER CHOICES
-        // ====================================
-
         if (/^[A-D]:/.test(line)) {
 
             const choice =
@@ -531,17 +465,12 @@ function parseQuestions(text) {
 
             current.choices.push(choice);
 
-
             current.choice_count++;
 
 
             continue;
         }
 
-
-        // ====================================
-        // CORRECT ANSWER
-        // ====================================
 
         if (line.startsWith("ANSWER:")) {
 
@@ -560,10 +489,6 @@ function parseQuestions(text) {
         }
 
 
-        // ====================================
-        // RATIONALE
-        // ====================================
-
         if (line.startsWith("RATIONALE:")) {
 
             current.rationale =
@@ -576,13 +501,8 @@ function parseQuestions(text) {
         }
 
 
-        // ====================================
-        // END QUESTION
-        // ====================================
-
         if (line === "END") {
 
-            // Only add valid questions
             if (
                 current.question !== "" &&
                 current.choices.length >= 2 &&
@@ -664,10 +584,6 @@ function displayQuestion() {
         questions[currentQuestion];
 
 
-    // ====================================
-    // QUESTION NUMBER
-    // ====================================
-
     document.getElementById("questionNumber")
         .textContent =
             `Question ${
@@ -677,18 +593,10 @@ function displayQuestion() {
             }`;
 
 
-    // ====================================
-    // QUESTION TEXT
-    // ====================================
-
     document.getElementById("question")
         .textContent =
             q.question;
 
-
-    // ====================================
-    // CLEAR OLD CHOICES
-    // ====================================
 
     const choicesContainer =
         document.getElementById("choices");
@@ -696,10 +604,6 @@ function displayQuestion() {
 
     choicesContainer.innerHTML = "";
 
-
-    // ====================================
-    // CREATE ANSWER CHOICES
-    // ====================================
 
     q.choices.forEach(
         (choice, index) => {
@@ -737,25 +641,13 @@ function displayQuestion() {
     );
 
 
-    // ====================================
-    // RESET RESULT
-    // ====================================
-
     document.getElementById("result")
         .innerHTML = "";
 
 
-    // ====================================
-    // SHOW SUBMIT
-    // ====================================
-
     document.getElementById("submitButton")
         .style.display = "block";
 
-
-    // ====================================
-    // HIDE NEXT
-    // ====================================
 
     document.getElementById("nextButton")
         .style.display = "none";
@@ -776,10 +668,6 @@ document.getElementById("submitButton")
                     'input[name="answer"]:checked'
                 );
 
-
-            // ====================================
-            // NO ANSWER SELECTED
-            // ====================================
 
             if (!selected) {
 
@@ -809,6 +697,13 @@ document.getElementById("submitButton")
 
             q.is_correct =
                 userAnswer === q.correct_answer;
+
+
+            // ====================================
+            // RECORD ANSWER
+            // ====================================
+
+            answeredQuestions++;
 
 
             // ====================================
@@ -930,23 +825,20 @@ document.getElementById("nextButton")
                 currentQuestion < questions.length
             ) {
 
-                // Show current score
                 document.getElementById(
                     "checkpointScore"
                 ).textContent =
                     `Score: ${
                         score
                     } / ${
-                        currentQuestion
+                        answeredQuestions
                     }`;
 
 
-                // Hide quiz
                 document.getElementById("quizScreen")
                     .style.display = "none";
 
 
-                // Show checkpoint
                 document.getElementById("checkpoint")
                     .style.display = "block";
 
@@ -991,17 +883,17 @@ document.getElementById("continueButton")
         "click",
         () => {
 
-            // Hide checkpoint
             document.getElementById("checkpoint")
                 .style.display = "none";
 
 
-            // Show quiz
             document.getElementById("quizScreen")
                 .style.display = "block";
 
 
-            // Display next question
+            // currentQuestion is already 10
+            // so this displays Question 11
+
             displayQuestion();
 
         }
@@ -1017,28 +909,24 @@ document.getElementById("stopButton")
         "click",
         () => {
 
-            // Hide checkpoint
             document.getElementById("checkpoint")
                 .style.display = "none";
 
 
-            // Hide quiz
             document.getElementById("quizScreen")
                 .style.display = "none";
 
 
-            // Show stopped screen
             document.getElementById("stoppedScreen")
                 .style.display = "block";
 
 
-            // Show score
             document.getElementById("stoppedScore")
                 .textContent =
                     `Score: ${
                         score
                     } / ${
-                        currentQuestion
+                        answeredQuestions
                     }`;
 
         }
@@ -1051,34 +939,29 @@ document.getElementById("stopButton")
 
 function finishQuiz() {
 
-    // Hide quiz
     document.getElementById("quizScreen")
         .style.display = "none";
 
 
-    // Show complete screen
     document.getElementById("completeScreen")
         .style.display = "block";
 
 
-    // Calculate percentage
     const percentage =
         Math.round(
-            (score / questions.length) * 100
+            (score / answeredQuestions) * 100
         );
 
 
-    // Final score
     document.getElementById("finalScore")
         .textContent =
             `Score: ${
                 score
             } / ${
-                questions.length
+                answeredQuestions
             }`;
 
 
-    // Final percentage
     document.getElementById("finalPercentage")
         .textContent =
             `${percentage}%`;
@@ -1110,44 +993,39 @@ document.getElementById("retakeButton")
 
 function returnToMenu() {
 
-    // Reset quiz data
     questions = [];
 
     currentQuestion = 0;
 
     score = 0;
 
+    answeredQuestions = 0;
+
     selectedQuiz = "";
 
     selectedQuizName = "";
 
 
-    // Hide quiz
     document.getElementById("quizScreen")
         .style.display = "none";
 
 
-    // Hide checkpoint
     document.getElementById("checkpoint")
         .style.display = "none";
 
 
-    // Hide stopped screen
     document.getElementById("stoppedScreen")
         .style.display = "none";
 
 
-    // Hide complete screen
     document.getElementById("completeScreen")
         .style.display = "none";
 
 
-    // Show menu
     document.getElementById("menu")
         .style.display = "block";
 
 
-    // Reload quiz list from GitHub
     loadQuizList();
 
 }
