@@ -1,0 +1,1559 @@
+[MCQ]
+QUESTION: What is the primary function of the coronary arteries?
+A: Carry deoxygenated blood from the heart to the lungs
+B: Supply oxygenated blood to the myocardium
+C: Remove waste from the systemic circulation
+D: Regulate the heart rate directly
+ANSWER: B
+RATIONALE: The coronary arteries supply oxygen and nutrients to the cardiac muscle so the myocardium can function properly.
+END
+
+[MCQ]
+QUESTION: Which coronary artery primarily supplies the anterior wall of the left ventricle and the anterior portion of the interventricular septum?
+A: Left anterior descending artery
+B: Right coronary artery
+C: Left circumflex artery
+D: Pulmonary artery
+ANSWER: A
+RATIONALE: The left anterior descending (LAD) artery supplies much of the anterior left ventricle and anterior interventricular septum.
+END
+
+[MCQ]
+QUESTION: What is coronary artery disease (CAD)?
+A: Infection of the cardiac valves
+B: Narrowing or blockage of coronary arteries that reduces myocardial blood flow
+C: Enlargement of the pulmonary arteries
+D: Inflammation of the pericardium
+ANSWER: B
+RATIONALE: CAD occurs when coronary arteries become narrowed or obstructed, reducing blood and oxygen supply to the myocardium.
+END
+
+[MCQ]
+QUESTION: What is atherosclerosis?
+A: Sudden inflammation of the myocardium
+B: Accumulation of plaque within arterial walls
+C: Enlargement of the cardiac chambers
+D: Formation of fluid around the heart
+ANSWER: B
+RATIONALE: Atherosclerosis is a chronic process involving the buildup of lipid-rich plaque within arterial walls.
+END
+
+[MCQ]
+QUESTION: Which substance is a major component of atherosclerotic plaque?
+A: LDL-derived cholesterol
+B: Hemoglobin
+C: Albumin
+D: Sodium
+ANSWER: A
+RATIONALE: LDL cholesterol contributes to lipid accumulation within arterial walls and is an important component of atherosclerotic plaque formation.
+END
+
+[MCQ]
+QUESTION: Which lipoprotein is generally considered atherogenic?
+A: HDL
+B: LDL
+C: Albumin
+D: Chylomicron only
+ANSWER: B
+RATIONALE: Low-density lipoprotein (LDL) can contribute to cholesterol deposition in arterial walls and is associated with atherosclerotic cardiovascular disease.
+END
+
+[MCQ]
+QUESTION: What is one important protective function associated with HDL?
+A: Promotes cholesterol removal from peripheral tissues
+B: Directly causes coronary artery obstruction
+C: Increases platelet aggregation
+D: Causes myocardial necrosis
+ANSWER: A
+RATIONALE: High-density lipoprotein (HDL) participates in reverse cholesterol transport, helping transport cholesterol away from peripheral tissues.
+END
+
+[MCQ]
+QUESTION: Which change occurs when an atherosclerotic plaque significantly narrows a coronary artery?
+A: Increased myocardial oxygen supply
+B: Reduced coronary blood flow
+C: Increased ventricular filling
+D: Increased oxygen delivery to the myocardium
+ANSWER: B
+RATIONALE: Significant coronary narrowing can reduce blood flow and oxygen delivery to the myocardium, especially when oxygen demand increases.
+END
+
+[MCQ]
+QUESTION: A patient develops chest pressure while climbing stairs that improves after resting. Which condition is most consistent with this pattern?
+A: Stable angina
+B: Cardiac tamponade
+C: Pericarditis
+D: Acute heart failure
+ANSWER: A
+RATIONALE: Stable angina commonly occurs with exertion or increased myocardial oxygen demand and improves with rest or prescribed antianginal therapy.
+END
+
+[MCQ]
+QUESTION: What is the primary underlying problem in myocardial ischemia?
+A: The myocardium receives more oxygen than it needs
+B: Myocardial oxygen supply is insufficient for its demand
+C: The heart completely stops producing electrical impulses
+D: The pericardium becomes infected
+ANSWER: B
+RATIONALE: Myocardial ischemia occurs when oxygen supply to the cardiac muscle is insufficient to meet myocardial oxygen demand.
+END
+
+[MCQ]
+QUESTION: Which symptom is classically associated with myocardial ischemia?
+A: Chest pressure or discomfort
+B: Isolated ankle itching
+C: Increased appetite
+D: Painless jaundice
+ANSWER: A
+RATIONALE: Myocardial ischemia commonly presents with chest pressure, tightness, heaviness, or discomfort, although symptoms can vary.
+END
+
+[MCQ]
+QUESTION: Which factor increases myocardial oxygen demand?
+A: Tachycardia
+B: Bradycardia
+C: Reduced contractility
+D: Reduced ventricular workload
+ANSWER: A
+RATIONALE: Tachycardia increases myocardial workload and oxygen demand.
+END
+
+[MCQ]
+QUESTION: What is a myocardial infarction (MI)?
+A: Temporary reduction in heart rate
+B: Death of myocardial tissue caused by prolonged ischemia
+C: Inflammation of the lung tissue
+D: Accumulation of fluid in the pleural space
+ANSWER: B
+RATIONALE: Myocardial infarction occurs when prolonged inadequate blood flow causes irreversible injury and death of cardiac muscle cells.
+END
+
+[MCQ]
+QUESTION: What is the most common underlying mechanism of a type 1 myocardial infarction?
+A: Acute atherosclerotic plaque disruption with thrombus formation
+B: Severe anemia without coronary obstruction
+C: Prolonged hypertension alone
+D: Cardiac tamponade
+ANSWER: A
+RATIONALE: Type 1 MI is generally caused by acute atherosclerotic plaque disruption, followed by platelet activation and thrombus formation that obstructs coronary blood flow.
+END
+
+[MCQ]
+QUESTION: Which condition can cause a type 2 myocardial infarction?
+A: Acute mismatch between myocardial oxygen supply and demand
+B: Only coronary plaque rupture
+C: Pericardial infection
+D: Aortic valve closure
+ANSWER: A
+RATIONALE: Type 2 MI results from an imbalance between myocardial oxygen supply and demand without requiring acute coronary plaque rupture.
+END
+
+[MCQ]
+QUESTION: A patient with severe anemia develops myocardial ischemia and elevated cardiac troponin without evidence of acute coronary thrombosis. Which type of MI is more consistent with this situation?
+A: Type 1 MI
+B: Type 2 MI
+C: STEMI only
+D: NSTEMI only
+ANSWER: B
+RATIONALE: Severe anemia can reduce oxygen delivery to the myocardium and produce a supply-demand mismatch, which can result in type 2 MI.
+END
+
+[MCQ]
+QUESTION: Which finding indicates myocardial injury rather than simply stable coronary artery narrowing?
+A: Elevated cardiac troponin
+B: Normal heart sounds
+C: Normal respiratory rate
+D: Warm extremities
+ANSWER: A
+RATIONALE: Cardiac troponins are biomarkers of myocardial injury and are commonly elevated during acute myocardial infarction.
+END
+
+[MCQ]
+QUESTION: What does STEMI stand for?
+A: Stable Tachycardia Emergency Myocardial Injury
+B: ST-Elevation Myocardial Infarction
+C: Severe Thrombotic Electrolyte Myocardial Injury
+D: Systemic Tissue Emergency Myocardial Infarction
+ANSWER: B
+RATIONALE: STEMI means ST-elevation myocardial infarction and is associated with characteristic ST-segment elevation on the ECG in the appropriate clinical context.
+END
+
+[MCQ]
+QUESTION: What does NSTEMI stand for?
+A: Non-ST-Elevation Myocardial Infarction
+B: Normal ST-Elevation Myocardial Injury
+C: Non-Systemic Thrombotic Emergency Myocardial Injury
+D: New ST-Treatment Emergency Myocardial Infarction
+ANSWER: A
+RATIONALE: NSTEMI means non-ST-elevation myocardial infarction.
+END
+
+[MCQ]
+QUESTION: Which finding most directly distinguishes a STEMI from an NSTEMI?
+A: Presence of chest discomfort
+B: Presence of elevated troponin
+C: Characteristic ST-segment elevation on ECG
+D: Presence of coronary artery disease
+ANSWER: C
+RATIONALE: STEMI is characterized by ST-segment elevation on the ECG in the appropriate clinical setting, whereas NSTEMI does not show the diagnostic ST elevation pattern.
+END
+
+[MCQ]
+QUESTION: A patient has chest pain and elevated troponin but no diagnostic ST-segment elevation. Which condition is most consistent with these findings?
+A: NSTEMI
+B: Stable angina
+C: Cardiac tamponade
+D: Chronic right-sided heart failure
+ANSWER: A
+RATIONALE: NSTEMI involves myocardial injury with elevated cardiac biomarkers but without the characteristic ST-segment elevation seen in STEMI.
+END
+
+[MCQ]
+QUESTION: Why is rapid treatment important in an acute myocardial infarction?
+A: To increase the duration of coronary obstruction
+B: To restore coronary blood flow and limit myocardial damage
+C: To increase myocardial oxygen demand
+D: To prevent all future cardiovascular disease
+ANSWER: B
+RATIONALE: Rapid restoration of coronary blood flow can limit the amount of myocardial tissue that becomes permanently damaged.
+END
+
+[MCQ]
+QUESTION: Which medication is commonly given early in suspected acute coronary syndrome because it inhibits platelet aggregation?
+A: Aspirin
+B: Furosemide
+C: Digoxin
+D: Atorvastatin only
+ANSWER: A
+RATIONALE: Aspirin inhibits platelet aggregation and is an important early medication in suspected acute coronary syndrome when not contraindicated.
+END
+
+[MCQ]
+QUESTION: A patient with suspected acute MI reports severe chest pain. The patient has no aspirin allergy or active bleeding. Which medication should the nurse anticipate administering as part of initial therapy?
+A: Aspirin
+B: Warfarin
+C: Spironolactone
+D: Calcium gluconate
+ANSWER: A
+RATIONALE: Aspirin is commonly administered promptly in suspected acute coronary syndrome because it reduces platelet aggregation.
+END
+
+[MCQ]
+QUESTION: A patient receiving aspirin for acute coronary syndrome should be monitored most closely for which adverse effect?
+A: Bleeding
+B: Severe hyperglycemia
+C: Urinary retention
+D: Hypercalcemia
+ANSWER: A
+RATIONALE: Aspirin inhibits platelet function and can increase the risk of gastrointestinal and other bleeding.
+END
+
+[MCQ]
+QUESTION: A patient with acute coronary syndrome is prescribed a P2Y12 inhibitor such as clopidogrel. What is the primary purpose of this medication?
+A: Reduce platelet aggregation
+B: Increase sodium retention
+C: Increase heart rate
+D: Increase blood volume
+ANSWER: A
+RATIONALE: P2Y12 inhibitors reduce platelet activation and aggregation, helping prevent further thrombus formation.
+END
+
+[MCQ]
+QUESTION: A patient taking clopidogrel reports black, tarry stools. What should the nurse do?
+A: Reassure the patient that this is expected
+B: Recognize possible gastrointestinal bleeding and report it promptly
+C: Encourage the patient to take an additional dose
+D: Tell the patient to stop all medications permanently
+ANSWER: B
+RATIONALE: Black, tarry stools can indicate gastrointestinal bleeding, which is a serious potential adverse effect of antiplatelet therapy.
+END
+
+[MCQ]
+QUESTION: Nitroglycerin relieves anginal chest discomfort primarily by:
+A: Increasing myocardial oxygen demand
+B: Causing vasodilation and reducing cardiac workload
+C: Increasing platelet aggregation
+D: Increasing blood volume
+ANSWER: B
+RATIONALE: Nitroglycerin causes vasodilation, particularly venodilation, reducing venous return and myocardial workload and thereby decreasing oxygen demand.
+END
+
+[MCQ]
+QUESTION: A patient with chest pain is prescribed sublingual nitroglycerin. Which assessment is especially important before administration?
+A: Blood pressure
+B: Hair color
+C: Bowel sounds only
+D: Blood glucose only
+ANSWER: A
+RATIONALE: Nitroglycerin can significantly lower blood pressure, so blood pressure should be assessed before administration.
+END
+
+[MCQ]
+QUESTION: A patient with chest pain has a blood pressure of 82/50 mmHg. Which medication should the nurse question before administration?
+A: Nitroglycerin
+B: Aspirin
+C: Clopidogrel
+D: Atorvastatin
+ANSWER: A
+RATIONALE: Nitroglycerin can further lower blood pressure and is generally avoided in significant hypotension unless specifically directed otherwise.
+END
+
+[MCQ]
+QUESTION: A patient prescribed nitroglycerin reports taking sildenafil earlier in the day. What is the nurse's priority?
+A: Administer nitroglycerin immediately
+B: Hold nitroglycerin and notify the appropriate provider
+C: Give twice the nitroglycerin dose
+D: Encourage vigorous exercise
+ANSWER: B
+RATIONALE: PDE-5 inhibitors such as sildenafil can cause significant hypotension when combined with nitrates such as nitroglycerin.
+END
+
+[MCQ]
+QUESTION: Which medication class reduces heart rate and myocardial oxygen demand and may be used in appropriate patients with acute coronary syndrome?
+A: Beta blockers
+B: Antacids
+C: Antihistamines
+D: Osmotic diuretics
+ANSWER: A
+RATIONALE: Beta blockers reduce heart rate, contractility, and myocardial oxygen demand when clinically appropriate.
+END
+
+[MCQ]
+QUESTION: A patient with acute MI has a heart rate of 48 beats/min and blood pressure of 88/54 mmHg. A beta blocker is prescribed. What should the nurse do?
+A: Administer the medication without assessment
+B: Question the order because of significant bradycardia and hypotension
+C: Double the dose
+D: Give the beta blocker with nitroglycerin
+ANSWER: B
+RATIONALE: Beta blockers can further reduce heart rate and blood pressure, so significant bradycardia and hypotension require careful evaluation before administration.
+END
+
+[MCQ]
+QUESTION: Why are statins commonly prescribed to patients with coronary artery disease?
+A: They lower LDL cholesterol and reduce cardiovascular risk
+B: They directly dissolve every existing coronary thrombus
+C: They increase platelet aggregation
+D: They increase blood pressure
+ANSWER: A
+RATIONALE: Statins lower LDL cholesterol and reduce the risk of future cardiovascular events in appropriate patients.
+END
+
+[MCQ]
+QUESTION: A patient taking atorvastatin reports unexplained severe muscle pain and weakness. What should the nurse consider?
+A: A possible statin-associated muscle adverse effect
+B: Normal therapeutic response
+C: Expected hypoglycemia
+D: Expected fluid overload
+ANSWER: A
+RATIONALE: Significant unexplained muscle pain or weakness may indicate a statin-associated muscle adverse effect and should be evaluated.
+END
+
+[MCQ]
+QUESTION: What is cardiac tamponade?
+A: Excessive fluid or blood accumulation in the pericardial space that impairs cardiac filling
+B: Permanent narrowing of the coronary arteries
+C: Infection of the myocardium
+D: Enlargement of the left ventricle caused by hypertension
+ANSWER: A
+RATIONALE: Cardiac tamponade occurs when fluid or blood accumulates in the pericardial sac and compresses the heart, impairing ventricular filling.
+END
+
+[MCQ]
+QUESTION: Which combination is classically associated with cardiac tamponade?
+A: Hypertension, bradycardia, and crackles
+B: Hypotension, muffled heart sounds, and jugular venous distention
+C: Fever, wheezing, and hypertension
+D: Bradycardia, dry mucous membranes, and edema
+ANSWER: B
+RATIONALE: Beck's triad consists of hypotension, muffled heart sounds, and jugular venous distention and is classically associated with cardiac tamponade.
+END
+
+[MCQ]
+QUESTION: Why does cardiac tamponade cause hypotension?
+A: It increases ventricular filling
+B: It restricts ventricular filling and decreases cardiac output
+C: It increases blood volume
+D: It increases coronary perfusion
+ANSWER: B
+RATIONALE: Pericardial pressure compresses the heart and limits ventricular filling, reducing stroke volume and cardiac output.
+END
+
+[MCQ]
+QUESTION: A patient with cardiac tamponade becomes increasingly hypotensive and tachycardic. Which mechanism best explains the hypotension?
+A: Increased preload
+B: Reduced ventricular filling
+C: Increased stroke volume
+D: Increased blood volume
+ANSWER: B
+RATIONALE: Tamponade restricts ventricular expansion during diastole, reducing filling and consequently decreasing stroke volume and cardiac output.
+END
+
+[MCQ]
+QUESTION: What is heart failure?
+A: The inability of the heart to pump or fill adequately to meet the body's needs
+B: Complete absence of coronary circulation in every case
+C: Infection of the pericardium
+D: Temporary increase in heart rate
+ANSWER: A
+RATIONALE: Heart failure is a clinical syndrome in which the heart cannot pump sufficient blood or fill adequately to meet the body's metabolic demands.
+END
+
+[MCQ]
+QUESTION: Which finding is most characteristic of left-sided heart failure?
+A: Pulmonary congestion
+B: Ascites only
+C: Peripheral edema only
+D: Enlarged liver only
+ANSWER: A
+RATIONALE: Left-sided heart failure causes blood to back up into the pulmonary circulation, leading to pulmonary congestion and symptoms such as dyspnea and crackles.
+END
+
+[MCQ]
+QUESTION: Which finding is most associated with right-sided heart failure?
+A: Pulmonary edema only
+B: Peripheral edema
+C: Pink frothy sputum only
+D: Pulmonary crackles only
+ANSWER: B
+RATIONALE: Right-sided heart failure causes systemic venous congestion, commonly producing peripheral edema, jugular venous distention, and hepatic congestion.
+END
+
+[MCQ]
+QUESTION: A patient with left-sided heart failure reports waking suddenly at night feeling severely short of breath. Which term describes this symptom?
+A: Paroxysmal nocturnal dyspnea
+B: Orthopnea only
+C: Syncope
+D: Claudication
+ANSWER: A
+RATIONALE: Paroxysmal nocturnal dyspnea (PND) is sudden nighttime shortness of breath that may awaken the patient from sleep.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure has difficulty breathing while lying flat and sleeps with several pillows. What is this symptom called?
+A: Orthopnea
+B: Syncope
+C: Cyanosis
+D: Claudication
+ANSWER: A
+RATIONALE: Orthopnea is shortness of breath that occurs when lying flat and is commonly associated with left-sided heart failure.
+END
+
+[MCQ]
+QUESTION: A patient with left-sided heart failure develops pink, frothy sputum and severe respiratory distress. What complication should the nurse suspect?
+A: Pulmonary edema
+B: Hypoglycemia
+C: Peripheral arterial disease
+D: Cardiac tamponade
+ANSWER: A
+RATIONALE: Severe pulmonary congestion can progress to acute pulmonary edema, which may produce pink, frothy sputum and severe dyspnea.
+END
+
+[MCQ]
+QUESTION: Which medication is commonly used to reduce fluid overload in a patient with symptomatic heart failure?
+A: Furosemide
+B: Clopidogrel
+C: Atorvastatin
+D: Nitroglycerin only
+ANSWER: A
+RATIONALE: Furosemide is a loop diuretic that promotes sodium and water excretion and can reduce congestion and fluid overload.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is receiving IV furosemide. Which laboratory value is especially important to monitor?
+A: Potassium
+B: Hemoglobin A1c only
+C: Bilirubin only
+D: Platelet count only
+ANSWER: A
+RATIONALE: Furosemide can increase urinary potassium loss, so potassium levels should be monitored.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure taking furosemide has a potassium level of 2.8 mEq/L. What is the nurse's priority?
+A: Recognize significant hypokalemia and notify the appropriate provider
+B: Encourage a potassium-free diet
+C: Administer another dose without assessment
+D: Ignore the result because furosemide increases potassium
+ANSWER: A
+RATIONALE: A potassium level of 2.8 mEq/L represents significant hypokalemia and increases the risk of weakness and cardiac dysrhythmias.
+END
+
+[MCQ]
+QUESTION: Which medication class helps reduce harmful neurohormonal effects of heart failure by blocking the renin-angiotensin-aldosterone system?
+A: ACE inhibitors
+B: Antacids
+C: Antihistamines
+D: Antidiarrheals
+ANSWER: A
+RATIONALE: ACE inhibitors reduce angiotensin II formation, decreasing vasoconstriction and aldosterone-related sodium and water retention.
+END
+
+[MCQ]
+QUESTION: A patient taking lisinopril develops swelling of the lips and tongue. What should the nurse recognize?
+A: Possible angioedema requiring urgent attention
+B: Expected therapeutic effect
+C: Normal fluid redistribution
+D: Expected hypokalemia
+ANSWER: A
+RATIONALE: ACE inhibitors can cause angioedema, which can threaten the airway and requires urgent evaluation.
+END
+
+[MCQ]
+QUESTION: Which laboratory value should be monitored in a patient taking an ACE inhibitor?
+A: Serum potassium
+B: Serum calcium only
+C: Hemoglobin only
+D: Platelet count only
+ANSWER: A
+RATIONALE: ACE inhibitors can decrease aldosterone activity and contribute to hyperkalemia, so serum potassium should be monitored.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is prescribed spironolactone. Which electrolyte imbalance is the patient at increased risk for?
+A: Hyperkalemia
+B: Hypokalemia
+C: Hypocalcemia
+D: Hyponatremia only
+ANSWER: A
+RATIONALE: Spironolactone is a potassium-sparing diuretic and can increase serum potassium levels.
+END
+
+[MCQ]
+QUESTION: A patient taking spironolactone asks why potassium supplements were discontinued. What is the best explanation?
+A: Spironolactone can increase potassium levels
+B: Spironolactone always causes severe hypokalemia
+C: Potassium has no cardiac function
+D: Potassium supplements increase urine output
+ANSWER: A
+RATIONALE: Spironolactone reduces potassium excretion, so additional potassium may increase the risk of hyperkalemia.
+END
+
+[MCQ]
+QUESTION: Which structure normally acts as the primary pacemaker of the heart?
+A: AV node
+B: SA node
+C: Bundle of His
+D: Purkinje fibers
+ANSWER: B
+RATIONALE: The sinoatrial (SA) node normally generates the electrical impulse that initiates each heartbeat.
+END
+
+[MCQ]
+QUESTION: What is the main function of the atrioventricular (AV) node?
+A: Completely stop ventricular contraction
+B: Delay the electrical impulse before it reaches the ventricles
+C: Supply oxygen to the myocardium
+D: Produce cardiac troponin
+ANSWER: B
+RATIONALE: The AV node briefly delays conduction, allowing time for the ventricles to fill before ventricular contraction.
+END
+
+[MCQ]
+QUESTION: What does cardiac output represent?
+A: Amount of blood pumped by one ventricle per minute
+B: Amount of blood remaining in the atria
+C: Pressure inside the coronary arteries only
+D: Total amount of blood in the body
+ANSWER: A
+RATIONALE: Cardiac output is the volume of blood pumped by one ventricle in one minute.
+END
+
+[MCQ]
+QUESTION: Which two factors determine cardiac output?
+A: Heart rate and stroke volume
+B: Blood pressure and temperature
+C: Respiratory rate and tidal volume
+D: Sodium and potassium levels only
+ANSWER: A
+RATIONALE: Cardiac output is determined by heart rate multiplied by stroke volume.
+END
+
+[MCQ]
+QUESTION: A patient's heart rate is 80 beats/min and stroke volume is 70 mL/beat. What is the approximate cardiac output?
+A: 1.5 L/min
+B: 3.2 L/min
+C: 5.6 L/min
+D: 8.5 L/min
+ANSWER: C
+RATIONALE: Cardiac output = heart rate × stroke volume. 80 × 70 mL = 5,600 mL/min, or 5.6 L/min.
+END
+
+[MCQ]
+QUESTION: What does preload refer to?
+A: Resistance the ventricle must overcome during ejection
+B: Stretch of ventricular muscle fibers caused by ventricular filling
+C: Force of ventricular contraction only
+D: Electrical conduction through the AV node
+ANSWER: B
+RATIONALE: Preload refers to the degree of ventricular fiber stretch at the end of diastole and is related to ventricular filling.
+END
+
+[MCQ]
+QUESTION: What does afterload refer to?
+A: Ventricular filling before contraction
+B: Resistance the ventricle must overcome to eject blood
+C: Amount of oxygen in the coronary arteries
+D: Electrical activity of the SA node
+ANSWER: B
+RATIONALE: Afterload is the resistance or pressure the ventricle must overcome to eject blood.
+END
+
+[MCQ]
+QUESTION: A patient has severe hypertension. Which cardiac workload is increased because the left ventricle must pump against greater resistance?
+A: Preload
+B: Afterload
+C: Heart block
+D: Coronary perfusion only
+ANSWER: B
+RATIONALE: Increased systemic vascular resistance increases the afterload against which the left ventricle must eject blood.
+END
+
+[MCQ]
+QUESTION: Which condition can increase preload?
+A: Increased venous return
+B: Severe blood loss
+C: Dehydration
+D: Reduced circulating volume
+ANSWER: A
+RATIONALE: Increased venous return increases ventricular filling and therefore increases preload.
+END
+
+[MCQ]
+QUESTION: A patient with acute heart failure has severe pulmonary congestion. Which position is generally most helpful for improving breathing?
+A: Flat supine
+B: High Fowler's
+C: Trendelenburg
+D: Prone with legs elevated
+ANSWER: B
+RATIONALE: Sitting upright reduces venous return and helps maximize lung expansion, which can improve breathing in pulmonary congestion.
+END
+
+[MCQ]
+QUESTION: A patient with left-sided heart failure develops crackles and severe dyspnea. Which medication would the nurse expect to help reduce pulmonary congestion?
+A: Furosemide
+B: Potassium chloride
+C: Clopidogrel
+D: Atropine
+ANSWER: A
+RATIONALE: Furosemide promotes diuresis, reducing excess fluid volume and helping relieve pulmonary congestion.
+END
+
+[MCQ]
+QUESTION: A patient receiving IV furosemide has a blood pressure of 88/52 mmHg and reports dizziness. What should the nurse do?
+A: Give an additional dose immediately
+B: Assess the patient and notify the appropriate provider about possible hypotension
+C: Encourage rapid ambulation
+D: Administer potassium without an order
+ANSWER: B
+RATIONALE: Furosemide can cause volume depletion and hypotension. Significant hypotension with dizziness requires assessment and prompt communication.
+END
+
+[MCQ]
+QUESTION: Which finding suggests that furosemide therapy is having the intended effect in a patient with fluid overload?
+A: Increased pulmonary crackles
+B: Decreased urine output
+C: Reduced edema and improved breathing
+D: Rapid weight gain
+ANSWER: C
+RATIONALE: Effective diuresis should reduce excess fluid, which may improve edema, respiratory symptoms, and body weight.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is instructed to monitor daily weight. Why is this important?
+A: Weight changes can indicate changes in fluid retention
+B: Weight determines the patient's heart rhythm
+C: Weight replaces blood pressure monitoring
+D: Weight directly measures cardiac contractility
+ANSWER: A
+RATIONALE: Rapid increases in daily weight can indicate fluid retention before severe symptoms develop.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure gains 2 kg over 48 hours. What should the nurse suspect?
+A: Significant fluid retention
+B: Improved cardiac function
+C: Severe fluid loss
+D: Normal muscle growth
+ANSWER: A
+RATIONALE: Rapid weight gain over a short period is commonly associated with fluid accumulation in heart failure.
+END
+
+[MCQ]
+QUESTION: Which medication is an angiotensin receptor blocker (ARB)?
+A: Losartan
+B: Furosemide
+C: Digoxin
+D: Aspirin
+ANSWER: A
+RATIONALE: Losartan is an ARB that blocks the action of angiotensin II at its receptor.
+END
+
+[MCQ]
+QUESTION: A patient develops a persistent dry cough while taking an ACE inhibitor. Which medication class may be considered as an alternative?
+A: ARB
+B: Loop diuretic only
+C: Antiplatelet only
+D: Calcium supplement
+ANSWER: A
+RATIONALE: ACE inhibitors can cause a persistent dry cough. An ARB may be used as an alternative in appropriate patients.
+END
+
+[MCQ]
+QUESTION: Which adverse effect is more characteristic of ACE inhibitors than ARBs?
+A: Dry cough
+B: Hypoglycemia
+C: Hearing loss
+D: Severe constipation
+ANSWER: A
+RATIONALE: ACE inhibitors can increase bradykinin levels, contributing to a persistent dry cough.
+END
+
+[MCQ]
+QUESTION: A patient taking an ACE inhibitor has a potassium level of 5.9 mEq/L. What should the nurse recognize?
+A: Possible ACE inhibitor-associated hyperkalemia
+B: Expected therapeutic response
+C: Severe hypokalemia
+D: Normal potassium level
+ANSWER: A
+RATIONALE: ACE inhibitors reduce aldosterone activity, which can decrease potassium excretion and contribute to hyperkalemia.
+END
+
+[MCQ]
+QUESTION: Which medication is a beta blocker commonly used in appropriate patients with heart failure?
+A: Metoprolol
+B: Furosemide
+C: Aspirin
+D: Nitroglycerin
+ANSWER: A
+RATIONALE: Evidence-based beta blockers such as metoprolol succinate can reduce sympathetic stimulation and improve outcomes in appropriate patients with heart failure.
+END
+
+[MCQ]
+QUESTION: A patient taking metoprolol has a heart rate of 48 beats/min and reports dizziness. What is the nurse's priority?
+A: Administer another dose
+B: Assess for symptomatic bradycardia and notify the appropriate provider
+C: Encourage strenuous exercise
+D: Give potassium immediately
+ANSWER: B
+RATIONALE: Beta blockers reduce heart rate. Significant symptomatic bradycardia requires assessment before additional doses are administered.
+END
+
+[MCQ]
+QUESTION: Which effect is expected from beta-blocker therapy?
+A: Increased heart rate
+B: Decreased heart rate and myocardial oxygen demand
+C: Increased myocardial contractility
+D: Increased sympathetic stimulation
+ANSWER: B
+RATIONALE: Beta blockers decrease heart rate, contractility, and sympathetic activity, reducing myocardial oxygen demand.
+END
+
+[MCQ]
+QUESTION: A patient taking digoxin has nausea, vomiting, and visual disturbances. What should the nurse suspect?
+A: Possible digoxin toxicity
+B: Expected therapeutic response
+C: Hypocalcemia only
+D: Improved cardiac output
+ANSWER: A
+RATIONALE: Gastrointestinal symptoms and visual disturbances can occur with digoxin toxicity.
+END
+
+[MCQ]
+QUESTION: Which electrolyte imbalance increases the risk of digoxin toxicity?
+A: Hypokalemia
+B: Hypernatremia
+C: Hyperchloremia
+D: Hyperphosphatemia
+ANSWER: A
+RATIONALE: Hypokalemia increases the binding of digoxin to myocardial Na+/K+-ATPase receptors and increases the risk of toxicity.
+END
+
+[MCQ]
+QUESTION: A patient taking digoxin has a potassium level of 2.9 mEq/L. Why is this finding especially concerning?
+A: Hypokalemia increases the risk of digoxin toxicity
+B: Hypokalemia prevents digoxin absorption
+C: Hypokalemia always improves cardiac output
+D: Hypokalemia makes digoxin ineffective
+ANSWER: A
+RATIONALE: Low potassium increases myocardial sensitivity to digoxin and can increase the risk of toxicity and dysrhythmias.
+END
+
+[MCQ]
+QUESTION: Before administering digoxin, which assessment is especially important?
+A: Apical pulse
+B: Bowel sounds only
+C: Skin temperature only
+D: Pupil size only
+ANSWER: A
+RATIONALE: Digoxin can slow the heart rate, so the apical pulse should be assessed before administration according to the prescribed parameters.
+END
+
+[MCQ]
+QUESTION: A patient taking digoxin has an apical heart rate of 52 beats/min. What should the nurse do?
+A: Administer the medication without assessment
+B: Hold the medication and follow the prescribed parameters for bradycardia
+C: Give two doses
+D: Encourage caffeine
+ANSWER: B
+RATIONALE: Digoxin can cause bradycardia. A low apical pulse requires holding the medication when consistent with the prescribed parameters and notifying the appropriate provider.
+END
+
+[MCQ]
+QUESTION: Which medication class can reduce mortality and hospitalization in appropriate patients with heart failure by promoting natriuresis and other beneficial cardiovascular effects?
+A: SGLT2 inhibitors
+B: Antacids
+C: Antihistamines
+D: Antidiarrheals
+ANSWER: A
+RATIONALE: SGLT2 inhibitors such as dapagliflozin and empagliflozin have established benefits in appropriate patients with heart failure, including reduced hospitalization and cardiovascular risk.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is prescribed spironolactone. Which food choice should the nurse question if consumed in excessive amounts?
+A: Bananas
+B: White rice
+C: Apples
+D: Bread
+ANSWER: A
+RATIONALE: Spironolactone is potassium-sparing, so excessive intake of high-potassium foods may increase the risk of hyperkalemia in susceptible patients.
+END
+
+[MCQ]
+QUESTION: Which finding in a patient taking spironolactone should be reported?
+A: Potassium level of 6.1 mEq/L
+B: Potassium level of 4.2 mEq/L
+C: Mild thirst after exercise
+D: Heart rate of 78 beats/min
+ANSWER: A
+RATIONALE: A potassium level of 6.1 mEq/L represents significant hyperkalemia and can cause life-threatening cardiac dysrhythmias.
+END
+
+[MCQ]
+QUESTION: What is the primary purpose of anticoagulant therapy in a patient with an appropriate indication such as atrial fibrillation?
+A: Reduce the risk of thromboembolism
+B: Increase platelet aggregation
+C: Increase blood pressure
+D: Increase myocardial oxygen demand
+ANSWER: A
+RATIONALE: Anticoagulants reduce clot formation and therefore reduce the risk of thromboembolic complications in conditions such as atrial fibrillation.
+END
+
+[MCQ]
+QUESTION: A patient taking warfarin develops unexplained bleeding and has a markedly elevated INR. What is the nurse's priority?
+A: Recognize increased bleeding risk and notify the appropriate provider
+B: Encourage the patient to take another dose
+C: Tell the patient INR monitoring is unnecessary
+D: Give aspirin routinely
+ANSWER: A
+RATIONALE: An excessively elevated INR increases bleeding risk and requires prompt assessment and management.
+END
+
+[MCQ]
+QUESTION: Which laboratory test is commonly used to monitor warfarin therapy?
+A: INR
+B: Troponin
+C: Serum calcium
+D: BNP only
+ANSWER: A
+RATIONALE: The international normalized ratio (INR) is used to monitor the anticoagulant effect of warfarin.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure has elevated BNP. What does BNP generally indicate?
+A: Increased ventricular wall stress
+B: Increased platelet production
+C: Improved kidney function
+D: Decreased cardiac workload
+ANSWER: A
+RATIONALE: B-type natriuretic peptide (BNP) is released in response to ventricular stretch and increased wall stress and can support the assessment of heart failure.
+END
+
+[MCQ]
+QUESTION: A patient with chronic left-sided heart failure develops right-sided heart failure. Which finding would the nurse expect?
+A: Peripheral edema
+B: Isolated dry cough
+C: Decreased venous pressure
+D: Reduced systemic venous congestion
+ANSWER: A
+RATIONALE: Right-sided heart failure causes systemic venous congestion, commonly producing peripheral edema.
+END
+
+[MCQ]
+QUESTION: Which finding is more characteristic of right-sided rather than left-sided heart failure?
+A: Pulmonary crackles
+B: Pink frothy sputum
+C: Jugular venous distention
+D: Pulmonary edema
+ANSWER: C
+RATIONALE: Right-sided heart failure causes systemic venous congestion, commonly manifested by jugular venous distention.
+END
+
+[MCQ]
+QUESTION: Which finding is more characteristic of left-sided heart failure?
+A: Ascites
+B: Hepatomegaly
+C: Pulmonary crackles
+D: Peripheral edema only
+ANSWER: C
+RATIONALE: Left-sided heart failure causes blood to back up into the pulmonary circulation, producing pulmonary congestion and crackles.
+END
+
+[MCQ]
+QUESTION: A patient with right-sided heart failure has abdominal swelling and an enlarged liver. What is the underlying mechanism?
+A: Systemic venous congestion
+B: Reduced coronary artery plaque
+C: Increased pulmonary oxygenation
+D: Reduced venous pressure
+ANSWER: A
+RATIONALE: Right-sided heart failure causes systemic venous congestion, which can result in hepatic congestion and ascites.
+END
+
+[MCQ]
+QUESTION: A patient with left-sided heart failure has severe pulmonary edema. Which oxygenation problem should the nurse anticipate?
+A: Impaired gas exchange
+B: Increased oxygen diffusion
+C: Increased alveolar ventilation in every case
+D: Increased hemoglobin production
+ANSWER: A
+RATIONALE: Fluid accumulation in the alveoli interferes with oxygen and carbon dioxide exchange, causing impaired gas exchange.
+END
+
+[MCQ]
+QUESTION: Which compensatory mechanism initially increases heart rate when cardiac output decreases?
+A: Sympathetic nervous system activation
+B: Parasympathetic activation only
+C: Decreased catecholamine release
+D: Complete suppression of the SA node
+ANSWER: A
+RATIONALE: Reduced cardiac output activates the sympathetic nervous system, increasing heart rate and contractility to temporarily maintain circulation.
+END
+
+[MCQ]
+QUESTION: In chronic heart failure, persistent activation of the renin-angiotensin-aldosterone system can worsen the condition by causing:
+A: Vasoconstriction and sodium and water retention
+B: Permanent vasodilation and fluid loss
+C: Decreased blood volume only
+D: Complete suppression of sympathetic activity
+ANSWER: A
+RATIONALE: RAAS activation causes vasoconstriction and promotes sodium and water retention, increasing cardiac workload and contributing to disease progression.
+END
+
+[MCQ]
+QUESTION: A patient with acute MI suddenly becomes hypotensive, has muffled heart sounds, and develops jugular venous distention. Which complication should the nurse suspect?
+A: Cardiac tamponade
+B: Stable angina
+C: Left-sided heart failure only
+D: Atherosclerosis
+ANSWER: A
+RATIONALE: Hypotension, muffled heart sounds, and jugular venous distention are classic findings associated with cardiac tamponade.
+END
+
+[MCQ]
+QUESTION: Which intervention definitively treats hemodynamically significant cardiac tamponade by removing the accumulated pericardial fluid?
+A: Pericardiocentesis
+B: Oral antacid administration
+C: Incentive spirometry
+D: Compression stockings
+ANSWER: A
+RATIONALE: Pericardiocentesis can remove fluid from the pericardial space and relieve pressure on the heart when clinically indicated.
+END
+
+[MCQ]
+QUESTION: A patient with suspected acute MI suddenly develops severe shortness of breath, crackles, and pink frothy sputum. What complication should the nurse suspect?
+A: Acute pulmonary edema
+B: Hypokalemia only
+C: Cardiac tamponade
+D: Stable angina
+ANSWER: A
+RATIONALE: Acute left ventricular dysfunction after MI can cause pulmonary congestion and acute pulmonary edema.
+END
+
+[MCQ]
+QUESTION: A patient with an acute MI is prescribed a high-intensity statin. What is an important purpose of this therapy?
+A: Reduce LDL cholesterol and stabilize atherosclerotic disease
+B: Immediately dissolve all coronary thrombi
+C: Increase blood pressure
+D: Increase platelet aggregation
+ANSWER: A
+RATIONALE: High-intensity statin therapy lowers LDL cholesterol and helps reduce future cardiovascular events in appropriate patients after acute coronary syndrome.
+END
+
+[MCQ]
+QUESTION: A patient with suspected acute coronary syndrome has chest pain, diaphoresis, and nausea. What is the nurse's priority?
+A: Prompt assessment and initiation of the acute coronary syndrome protocol as ordered
+B: Encourage the patient to walk
+C: Delay assessment until the pain disappears
+D: Give a large meal
+ANSWER: A
+RATIONALE: Chest pain with autonomic symptoms can indicate acute coronary syndrome and requires rapid assessment and treatment.
+END
+
+[MCQ]
+QUESTION: Which medication can reduce platelet aggregation by irreversibly inhibiting platelet cyclooxygenase?
+A: Aspirin
+B: Furosemide
+C: Metoprolol
+D: Digoxin
+ANSWER: A
+RATIONALE: Aspirin irreversibly inhibits platelet cyclooxygenase, reducing thromboxane A2 production and platelet aggregation.
+END
+
+[MCQ]
+QUESTION: A patient receiving nitroglycerin reports a severe headache. What should the nurse recognize?
+A: A common vasodilatory adverse effect
+B: Definite evidence of myocardial rupture
+C: Sign of hyperkalemia
+D: Evidence that the medication is ineffective
+ANSWER: A
+RATIONALE: Headache is a common adverse effect of nitrates because of vasodilation.
+END
+
+[MCQ]
+QUESTION: A patient with acute coronary syndrome has been prescribed nitroglycerin and reports severe dizziness after administration. What should the nurse assess first?
+A: Blood pressure
+B: Serum calcium
+C: Bowel sounds
+D: Body temperature
+ANSWER: A
+RATIONALE: Nitroglycerin can cause hypotension, so blood pressure should be assessed when significant dizziness occurs.
+END
+
+[MCQ]
+QUESTION: A patient with coronary artery disease asks why smoking cessation is recommended. What is the best explanation?
+A: Smoking promotes endothelial injury and increases cardiovascular risk
+B: Smoking directly increases HDL in all patients
+C: Smoking prevents atherosclerosis
+D: Smoking permanently lowers heart rate
+ANSWER: A
+RATIONALE: Smoking contributes to endothelial dysfunction, thrombosis, inflammation, and atherosclerotic cardiovascular disease.
+END
+
+[MCQ]
+QUESTION: A patient with coronary artery disease develops chest pain while resting. Why is this more concerning than predictable chest pain occurring only with exertion?
+A: It may indicate worsening myocardial ischemia
+B: It proves the patient has hypokalemia
+C: It indicates improved coronary blood flow
+D: It is always caused by anxiety
+ANSWER: A
+RATIONALE: Chest pain occurring at rest may indicate acute coronary syndrome or worsening myocardial ischemia and requires prompt assessment.
+END
+
+[MCQ]
+QUESTION: Which change is most likely to occur when an atherosclerotic plaque ruptures?
+A: Platelet activation and thrombus formation
+B: Immediate removal of arterial plaque
+C: Increased coronary artery diameter
+D: Decreased platelet activity
+ANSWER: A
+RATIONALE: Plaque rupture exposes thrombogenic material, promoting platelet activation and thrombus formation that can obstruct coronary blood flow.
+END
+
+[MCQ]
+QUESTION: A patient with coronary artery disease asks why plaque formation can eventually cause myocardial infarction. What is the best explanation?
+A: Plaque can rupture and trigger thrombus formation that obstructs coronary blood flow
+B: Plaque always increases coronary blood flow
+C: Plaque causes the heart to stop producing electrical impulses
+D: Plaque directly causes pulmonary edema
+ANSWER: A
+RATIONALE: Atherosclerotic plaque can rupture, causing platelet activation and thrombus formation that may acutely obstruct a coronary artery.
+END
+
+[MCQ]
+QUESTION: Which factor contributes to endothelial injury and atherosclerosis?
+A: Cigarette smoking
+B: Regular physical activity
+C: Controlled blood pressure
+D: Normal LDL levels
+ANSWER: A
+RATIONALE: Cigarette smoking contributes to endothelial dysfunction and promotes processes involved in atherosclerosis.
+END
+
+[MCQ]
+QUESTION: A patient with a history of CAD has an LDL level of 190 mg/dL. Which medication would the nurse expect to be prescribed to reduce cardiovascular risk?
+A: High-intensity statin
+B: Furosemide
+C: Digoxin
+D: Nitroglycerin only
+ANSWER: A
+RATIONALE: Statins are used to lower LDL cholesterol and reduce cardiovascular risk in patients with atherosclerotic cardiovascular disease and appropriate indications.
+END
+
+[MCQ]
+QUESTION: A patient taking atorvastatin asks why liver enzymes may be monitored. What is the best explanation?
+A: Statins can affect the liver
+B: Statins always cause liver failure
+C: Liver enzymes determine the patient's heart rhythm
+D: Liver enzymes measure platelet activity
+ANSWER: A
+RATIONALE: Statins act in the liver and can rarely cause clinically significant liver injury, so appropriate clinical monitoring is important.
+END
+
+[MCQ]
+QUESTION: A patient with suspected acute MI receives aspirin. Which outcome indicates the medication is performing its intended antiplatelet action?
+A: Reduced platelet aggregation
+B: Increased platelet aggregation
+C: Increased blood viscosity
+D: Increased ventricular preload
+ANSWER: A
+RATIONALE: Aspirin reduces platelet aggregation by inhibiting platelet cyclooxygenase and thromboxane A2 production.
+END
+
+[MCQ]
+QUESTION: A patient with acute coronary syndrome is prescribed both aspirin and clopidogrel. Why may these medications be used together?
+A: To provide dual antiplatelet therapy
+B: To increase blood clot formation
+C: To increase potassium levels
+D: To decrease urine production
+ANSWER: A
+RATIONALE: Aspirin and a P2Y12 inhibitor such as clopidogrel may be combined as dual antiplatelet therapy to reduce platelet-mediated thrombotic events when indicated.
+END
+
+[MCQ]
+QUESTION: A patient receiving dual antiplatelet therapy develops uncontrolled nosebleeding. What should the nurse prioritize?
+A: Assess the bleeding and notify the appropriate provider
+B: Tell the patient to take another dose
+C: Encourage vigorous nose blowing
+D: Ignore the bleeding
+ANSWER: A
+RATIONALE: Antiplatelet medications increase bleeding risk, so uncontrolled bleeding requires prompt assessment and appropriate intervention.
+END
+
+[MCQ]
+QUESTION: A patient with chest pain is prescribed sublingual nitroglycerin. Why is the medication placed under the tongue?
+A: It allows rapid absorption
+B: It prevents all adverse effects
+C: It increases potassium absorption
+D: It prevents coronary vasodilation
+ANSWER: A
+RATIONALE: Sublingual nitroglycerin is rapidly absorbed through the oral mucosa, allowing a relatively rapid onset of action.
+END
+
+[MCQ]
+QUESTION: A patient takes one prescribed dose of sublingual nitroglycerin for chest pain but continues to have severe chest discomfort. What is the priority?
+A: Follow the prescribed emergency protocol and seek immediate medical evaluation
+B: Assume the pain is harmless
+C: Encourage exercise
+D: Give an extra dose without following the prescribed instructions
+ANSWER: A
+RATIONALE: Persistent or worsening chest pain may indicate ongoing myocardial ischemia and requires urgent evaluation rather than being assumed to be benign.
+END
+
+[MCQ]
+QUESTION: Which medication should generally not be combined with nitroglycerin because of the risk of severe hypotension?
+A: Sildenafil
+B: Atorvastatin
+C: Aspirin
+D: Clopidogrel
+ANSWER: A
+RATIONALE: PDE-5 inhibitors such as sildenafil can cause profound hypotension when combined with nitrates.
+END
+
+[MCQ]
+QUESTION: A patient taking nitroglycerin reports flushing and headache. What is the most appropriate interpretation?
+A: These can occur because of vasodilation
+B: They prove the patient has hyperkalemia
+C: They indicate cardiac arrest
+D: They are evidence of digoxin toxicity
+ANSWER: A
+RATIONALE: Vasodilation from nitrates commonly causes headache, flushing, and sometimes dizziness.
+END
+
+[MCQ]
+QUESTION: A patient with acute MI has a heart rate of 120 beats/min. Why might a beta blocker be beneficial if there are no contraindications?
+A: It can reduce heart rate and myocardial oxygen demand
+B: It increases myocardial oxygen demand
+C: It increases platelet aggregation
+D: It causes fluid retention
+ANSWER: A
+RATIONALE: Beta blockers decrease heart rate and myocardial contractility, reducing myocardial oxygen demand when clinically appropriate.
+END
+
+[MCQ]
+QUESTION: Which finding would make the nurse especially cautious about administering a beta blocker?
+A: Heart rate of 46 beats/min
+B: Heart rate of 88 beats/min
+C: Blood pressure of 128/76 mmHg
+D: Respiratory rate of 18/min
+ANSWER: A
+RATIONALE: Significant bradycardia is an important concern because beta blockers can further decrease heart rate.
+END
+
+[MCQ]
+QUESTION: A patient with asthma is prescribed a beta blocker. Why should the nurse review the medication and patient history carefully?
+A: Some beta blockers can cause bronchoconstriction
+B: Beta blockers always cause pulmonary edema
+C: Beta blockers increase oxygen saturation
+D: Beta blockers eliminate airway inflammation
+ANSWER: A
+RATIONALE: Some beta blockers, particularly nonselective agents, can block beta-2 receptors and contribute to bronchoconstriction.
+END
+
+[MCQ]
+QUESTION: A patient taking metoprolol asks why the medication should not always be stopped suddenly. What is the concern?
+A: Abrupt withdrawal can increase sympathetic activity and worsen cardiac ischemia
+B: Stopping it immediately always causes hypokalemia
+C: Stopping it immediately causes hypercalcemia
+D: It permanently damages the kidneys
+ANSWER: A
+RATIONALE: Abrupt beta-blocker withdrawal can cause rebound sympathetic activity, potentially worsening angina, hypertension, or ischemia.
+END
+
+[MCQ]
+QUESTION: A patient taking lisinopril develops a potassium level of 6.0 mEq/L. Which complication is the greatest concern?
+A: Cardiac dysrhythmia
+B: Severe hypoglycemia
+C: Pulmonary infection
+D: Hypocalcemic tetany
+ANSWER: A
+RATIONALE: Significant hyperkalemia can interfere with cardiac conduction and cause potentially life-threatening dysrhythmias.
+END
+
+[MCQ]
+QUESTION: Which adverse effect of lisinopril requires emergency attention because of possible airway obstruction?
+A: Angioedema
+B: Mild headache
+C: Mild fatigue
+D: Increased appetite
+ANSWER: A
+RATIONALE: ACE inhibitor-associated angioedema can cause swelling of the tongue, lips, or airway and may become life-threatening.
+END
+
+[MCQ]
+QUESTION: A patient taking losartan develops potassium elevation. Which mechanism explains this possible adverse effect?
+A: Reduced aldosterone-mediated potassium excretion
+B: Increased potassium excretion caused by loop diuresis
+C: Increased insulin secretion
+D: Increased gastrointestinal potassium loss
+ANSWER: A
+RATIONALE: ARBs inhibit angiotensin II effects, reducing aldosterone activity and potentially decreasing renal potassium excretion.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is prescribed an ACE inhibitor. Which expected therapeutic effect is most appropriate?
+A: Reduced afterload and reduced neurohormonal activation
+B: Increased systemic vascular resistance
+C: Increased sodium and water retention
+D: Increased myocardial oxygen demand
+ANSWER: A
+RATIONALE: ACE inhibitors reduce angiotensin II formation, producing vasodilation and reducing aldosterone-related sodium and water retention.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is receiving furosemide. Which finding best indicates effective diuresis?
+A: Decreased peripheral edema
+B: Increased jugular venous distention
+C: Increased body weight
+D: Increased pulmonary crackles
+ANSWER: A
+RATIONALE: Reduced peripheral edema indicates removal of excess fluid and improvement in congestion.
+END
+
+[MCQ]
+QUESTION: A patient taking furosemide reports muscle weakness. Which laboratory value should the nurse check promptly?
+A: Potassium
+B: Cholesterol
+C: Troponin only
+D: Hemoglobin A1c
+ANSWER: A
+RATIONALE: Furosemide can cause potassium loss, and hypokalemia can produce muscle weakness and cardiac dysrhythmias.
+END
+
+[MCQ]
+QUESTION: A patient receiving high-dose furosemide develops ringing in the ears. What should the nurse recognize?
+A: Possible ototoxicity
+B: Expected improvement in hearing
+C: Sign of hypercalcemia
+D: Normal response to diuresis
+ANSWER: A
+RATIONALE: High-dose or rapid IV loop diuretic administration can cause ototoxicity, which may present as tinnitus or hearing changes.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is prescribed spironolactone. Which laboratory value is most important to monitor?
+A: Potassium
+B: Hemoglobin
+C: Platelet count
+D: Serum amylase
+ANSWER: A
+RATIONALE: Spironolactone is potassium-sparing and can cause hyperkalemia, especially in patients with impaired renal function.
+END
+
+[MCQ]
+QUESTION: A patient taking spironolactone reports muscle weakness and palpitations. Which electrolyte imbalance should the nurse suspect?
+A: Hyperkalemia
+B: Hypocalcemia
+C: Hypochloremia
+D: Hypophosphatemia
+ANSWER: A
+RATIONALE: Hyperkalemia can cause muscle weakness and potentially dangerous cardiac conduction abnormalities.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure has worsening edema despite taking a diuretic. Which assessment is most important before considering further treatment?
+A: Weight, urine output, blood pressure, and renal function
+B: Hair growth
+C: Visual acuity only
+D: Skin color only
+ANSWER: A
+RATIONALE: These findings help assess fluid status, perfusion, medication response, and renal safety before further diuretic management.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure has decreased cardiac output. Which response is expected from activation of the sympathetic nervous system?
+A: Increased heart rate and contractility
+B: Decreased heart rate and contractility
+C: Complete suppression of catecholamines
+D: Immediate reduction in blood volume
+ANSWER: A
+RATIONALE: Sympathetic activation initially increases heart rate and contractility to compensate for reduced cardiac output.
+END
+
+[MCQ]
+QUESTION: Why can chronic RAAS activation worsen heart failure?
+A: It promotes vasoconstriction and sodium and water retention
+B: It permanently decreases blood volume
+C: It eliminates ventricular remodeling
+D: It decreases cardiac workload
+ANSWER: A
+RATIONALE: Chronic RAAS activation increases vascular resistance and promotes sodium and water retention, increasing cardiac workload and contributing to remodeling.
+END
+
+[MCQ]
+QUESTION: A patient with left-sided heart failure has worsening orthopnea. Which problem is most likely responsible?
+A: Pulmonary congestion
+B: Systemic venous congestion only
+C: Increased intestinal motility
+D: Reduced blood volume
+ANSWER: A
+RATIONALE: Left-sided heart failure causes pulmonary venous congestion, which can worsen dyspnea when the patient lies flat.
+END
+
+[MCQ]
+QUESTION: A patient with right-sided heart failure has increasing abdominal girth. Which complication is most likely?
+A: Ascites
+B: Pulmonary embolism in every case
+C: Pneumothorax
+D: Hemothorax
+ANSWER: A
+RATIONALE: Systemic venous congestion from right-sided heart failure can cause fluid accumulation in the peritoneal cavity, producing ascites.
+END
+
+[MCQ]
+QUESTION: Which finding suggests worsening right-sided heart failure?
+A: Increasing jugular venous distention
+B: Decreased peripheral edema
+C: Reduced abdominal girth
+D: Improved exercise tolerance
+ANSWER: A
+RATIONALE: Increasing jugular venous distention indicates worsening systemic venous congestion.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure suddenly develops severe dyspnea, bilateral crackles, and pink frothy sputum. What should the nurse do first?
+A: Recognize acute pulmonary edema and initiate emergency interventions
+B: Encourage the patient to lie flat
+C: Give a large amount of oral fluid
+D: Delay assessment until morning
+ANSWER: A
+RATIONALE: Severe pulmonary edema is an emergency that requires immediate assessment, oxygenation support, and prescribed treatment.
+END
+
+[MCQ]
+QUESTION: Which medication may be used to reduce preload in a patient with acute pulmonary congestion when clinically appropriate?
+A: Nitroglycerin
+B: Potassium chloride
+C: Clopidogrel
+D: Atorvastatin
+ANSWER: A
+RATIONALE: Nitrates promote venodilation, reducing venous return and preload and potentially improving pulmonary congestion when blood pressure permits.
+END
+
+[MCQ]
+QUESTION: A patient with acute pulmonary edema has a blood pressure of 78/46 mmHg. Why should the nurse be cautious about administering nitroglycerin?
+A: Nitroglycerin can further lower blood pressure
+B: Nitroglycerin increases potassium
+C: Nitroglycerin increases blood volume
+D: Nitroglycerin causes platelet aggregation
+ANSWER: A
+RATIONALE: Nitroglycerin causes vasodilation and can worsen significant hypotension.
+END
+
+[MCQ]
+QUESTION: Which finding in a patient with heart failure suggests poor renal perfusion?
+A: Decreased urine output
+B: Increased urine output after effective diuresis
+C: Reduced edema
+D: Improved blood pressure
+ANSWER: A
+RATIONALE: Decreased cardiac output can reduce renal perfusion, resulting in decreased urine output.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure has cool extremities, confusion, and decreased urine output. What do these findings suggest?
+A: Poor systemic perfusion
+B: Improved cardiac output
+C: Excessive coronary perfusion
+D: Normal compensation without concern
+ANSWER: A
+RATIONALE: Cool extremities, altered mental status, and decreased urine output can indicate inadequate systemic perfusion from reduced cardiac output.
+END
+
+[MCQ]
+QUESTION: Which finding is more consistent with cardiogenic shock following a large myocardial infarction?
+A: Severe hypotension with signs of poor tissue perfusion
+B: Hypertension with warm extremities
+C: Increased urine output
+D: Improved level of consciousness
+ANSWER: A
+RATIONALE: Cardiogenic shock occurs when severe cardiac pump failure causes inadequate cardiac output and tissue perfusion.
+END
+
+[MCQ]
+QUESTION: A patient develops cardiogenic shock after an extensive MI. Which underlying problem is primarily responsible?
+A: Severe reduction in cardiac pumping ability
+B: Excessive renal filtration
+C: Increased intestinal absorption
+D: Increased blood volume alone
+ANSWER: A
+RATIONALE: Extensive myocardial damage can severely impair ventricular contractility, reducing cardiac output and causing cardiogenic shock.
+END
+
+[MCQ]
+QUESTION: A patient with an acute MI develops a new loud cardiac murmur and sudden pulmonary edema. What complication should the nurse consider?
+A: Acute mechanical complication of the infarction
+B: Simple stable angina
+C: Mild dehydration
+D: Chronic constipation
+ANSWER: A
+RATIONALE: A new murmur with sudden hemodynamic deterioration after MI can indicate a mechanical complication such as papillary muscle dysfunction or ventricular septal rupture.
+END
+
+[MCQ]
+QUESTION: Which cardiac biomarker is commonly used to detect myocardial injury because of its high cardiac specificity?
+A: Cardiac troponin
+B: Sodium
+C: Albumin
+D: Bilirubin
+ANSWER: A
+RATIONALE: Cardiac troponins are highly sensitive and specific biomarkers of myocardial injury and are central to the evaluation of suspected acute MI.
+END
+
+[MCQ]
+QUESTION: A patient with suspected MI has an elevated troponin. What does this result indicate?
+A: Myocardial injury
+B: Guaranteed coronary artery occlusion
+C: Guaranteed STEMI
+D: Normal cardiac tissue
+ANSWER: A
+RATIONALE: Elevated cardiac troponin indicates myocardial injury, but the cause and type of injury must be determined using the clinical presentation and other findings.
+END
+
+[MCQ]
+QUESTION: Which statement correctly compares STEMI and NSTEMI?
+A: STEMI has characteristic ST elevation, while NSTEMI does not have the diagnostic ST-elevation pattern
+B: NSTEMI always has normal troponin
+C: STEMI never involves coronary artery disease
+D: STEMI is always caused by type 2 MI
+ANSWER: A
+RATIONALE: STEMI and NSTEMI are both forms of acute MI. STEMI is characterized by diagnostic ST-segment elevation, while NSTEMI lacks that characteristic ECG pattern.
+END
+
+[MCQ]
+QUESTION: Which type of MI is most directly associated with acute coronary plaque rupture and thrombosis?
+A: Type 1 MI
+B: Type 2 MI
+C: Chronic stable angina
+D: Cardiac tamponade
+ANSWER: A
+RATIONALE: Type 1 MI is caused by acute atherosclerotic plaque disruption with thrombus formation.
+END
+
+[MCQ]
+QUESTION: A patient with severe tachycardia develops myocardial ischemia because oxygen demand greatly exceeds supply, without evidence of acute plaque rupture. Which type of MI may result?
+A: Type 2 MI
+B: Type 1 MI
+C: STEMI by definition
+D: Stable angina
+ANSWER: A
+RATIONALE: Severe tachycardia can produce an oxygen supply-demand mismatch and may cause type 2 MI when myocardial injury and ischemia criteria are met.
+END
+
+[MCQ]
+QUESTION: A patient with cardiac tamponade has hypotension and jugular venous distention. Why can the jugular veins become distended?
+A: Blood cannot adequately enter the compressed heart chambers
+B: The kidneys suddenly produce excessive urine
+C: Coronary arteries become wider
+D: The left ventricle pumps excessively
+ANSWER: A
+RATIONALE: Pericardial pressure restricts cardiac filling, causing blood to back up into the systemic venous circulation and contributing to jugular venous distention.
+END
+
+[MCQ]
+QUESTION: A patient develops cardiac tamponade after chest trauma. Which intervention may be urgently required?
+A: Pericardial drainage
+B: Oral potassium supplementation only
+C: Routine exercise
+D: Fluid restriction without further treatment
+ANSWER: A
+RATIONALE: Traumatic hemopericardium can cause tamponade, and urgent drainage may be required to relieve pressure on the heart.
+END
+
+[MCQ]
+QUESTION: Which finding helps distinguish cardiac tamponade from uncomplicated left-sided heart failure?
+A: Muffled heart sounds with jugular venous distention and hypotension
+B: Crackles alone
+C: Orthopnea alone
+D: Peripheral edema alone
+ANSWER: A
+RATIONALE: The combination of hypotension, muffled heart sounds, and jugular venous distention is classically associated with cardiac tamponade.
+END
+
+[MCQ]
+QUESTION: A patient with heart failure is taking digoxin and furosemide. Which combination of findings should concern the nurse most?
+A: Nausea, visual changes, and potassium of 2.8 mEq/L
+B: Improved breathing and potassium of 4.2 mEq/L
+C: Decreased edema and stable heart rate
+D: Increased urine output and reduced weight
+ANSWER: A
+RATIONALE: Nausea and visual disturbances may indicate digoxin toxicity, while severe hypokalemia from furosemide increases the risk of digoxin toxicity.
+END
+
+[MCQ]
+QUESTION: A patient taking digoxin develops an irregular pulse and reports seeing yellow-green halos. What should the nurse suspect?
+A: Digoxin toxicity
+B: Expected therapeutic response
+C: Hypernatremia
+D: Stable angina
+ANSWER: A
+RATIONALE: Dysrhythmias and visual disturbances such as altered color perception can occur with digoxin toxicity.
+END
+
+[MCQ]
+QUESTION: A patient taking digoxin has a serum potassium of 3.0 mEq/L. Which medication history is particularly relevant?
+A: Use of a loop diuretic
+B: Use of an antacid only
+C: Use of a statin only
+D: Use of a topical moisturizer
+ANSWER: A
+RATIONALE: Loop diuretics can cause potassium loss, and hypokalemia increases the risk of digoxin toxicity.
+END
+
+[MCQ]
+QUESTION: Which outcome would indicate improvement in a patient with left-sided heart failure?
+A: Reduced dyspnea and fewer pulmonary crackles
+B: Increased orthopnea
+C: New pink frothy sputum
+D: Increasing oxygen requirement
+ANSWER: A
+RATIONALE: Reduced dyspnea and pulmonary congestion indicate improvement in left-sided heart failure.
+END
+
+[MCQ]
+QUESTION: Which outcome would indicate improvement in a patient with right-sided heart failure?
+A: Reduced peripheral edema and jugular venous distention
+B: Increased ascites
+C: Increasing abdominal girth
+D: Increasing dependent edema
+ANSWER: A
+RATIONALE: Reduction in systemic venous congestion, such as decreased edema and jugular venous distention, indicates improvement in right-sided heart failure.
+END
