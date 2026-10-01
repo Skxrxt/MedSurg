@@ -49,7 +49,9 @@
          QUIZ SCREEN
          ======================================== -->
 
-    <div class="screen" id="quizScreen" style="display: none;">
+    <div class="screen"
+         id="quizScreen"
+         style="display: none;">
 
         <div class="quiz-container">
 
@@ -85,89 +87,115 @@
 
             </button>
 
+        </div>
 
-
-            <!-- ========================================
-                 10 QUESTION CHECKPOINT
-                 ======================================== -->
-
-            <div id="checkpoint"
-                 class="checkpoint"
-                 style="display: none;">
-
-                <h2>
-                    10 QUESTIONS COMPLETED
-                </h2>
-
-                <p id="checkpointScore"></p>
-
-                <button id="continueButton">
-                    CONTINUE
-                </button>
-
-                <button id="stopButton"
-                        class="secondary-button">
-
-                    STOP QUIZ
-
-                </button>
-
-            </div>
+    </div>
 
 
 
-            <!-- ========================================
-                 STOPPED SCREEN
-                 ======================================== -->
+    <!-- ========================================
+         10 QUESTION CHECKPOINT
+         ======================================== -->
 
-            <div id="stoppedScreen"
-                 style="display: none;">
+    <div class="screen"
+         id="checkpoint"
+         style="display: none;">
 
-                <h2>
-                    QUIZ STOPPED
-                </h2>
+        <div class="quiz-container">
 
-                <p id="stoppedScore"></p>
+            <h2>
+                10 QUESTIONS COMPLETED
+            </h2>
 
-                <button id="returnMenuButton">
-                    CHOOSE ANOTHER QUIZ
-                </button>
+            <p>
+                Current score:
+            </p>
 
-            </div>
+            <p id="checkpointScore">
+                0 / 10
+            </p>
 
 
+            <button id="continueButton">
+                CONTINUE
+            </button>
 
-            <!-- ========================================
-                 COMPLETE SCREEN
-                 ======================================== -->
 
-            <div id="completeScreen"
-                 style="display: none;">
+            <button id="stopButton"
+                    class="secondary-button">
 
-                <h2>
-                    QUIZ COMPLETE
-                </h2>
+                STOP QUIZ
 
-                <p id="finalScore"></p>
-
-                <p id="finalPercentage"></p>
-
-                <button id="retakeButton">
-                    RETAKE QUIZ
-                </button>
-
-                <button id="completeMenuButton"
-                        class="secondary-button">
-
-                    CHOOSE ANOTHER QUIZ
-
-                </button>
-
-            </div>
+            </button>
 
         </div>
 
     </div>
+
+
+
+    <!-- ========================================
+         STOPPED SCREEN
+         ======================================== -->
+
+    <div class="screen"
+         id="stoppedScreen"
+         style="display: none;">
+
+        <div class="quiz-container">
+
+            <h2>
+                QUIZ STOPPED
+            </h2>
+
+            <p id="stoppedScore"></p>
+
+
+            <button id="returnMenuButton">
+                CHOOSE ANOTHER QUIZ
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ========================================
+         COMPLETE SCREEN
+         ======================================== -->
+
+    <div class="screen"
+         id="completeScreen"
+         style="display: none;">
+
+        <div class="quiz-container">
+
+            <h2>
+                QUIZ COMPLETE
+            </h2>
+
+            <p id="finalScore"></p>
+
+            <p id="finalPercentage"></p>
+
+
+            <button id="retakeButton">
+                RETAKE QUIZ
+            </button>
+
+
+            <button id="completeMenuButton"
+                    class="secondary-button">
+
+                CHOOSE ANOTHER QUIZ
+
+            </button>
+
+        </div>
+
+    </div>
+
 
 
     <script src="script.js"></script>
