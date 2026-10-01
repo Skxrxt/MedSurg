@@ -11,8 +11,7 @@ let selectedQuizName = "";
 // ========================================
 
 const GITHUB_API_URL =
-    "https://api.github.com/repos/Skxrxt/MedSurg/contents/quizzes";
-
+    "https://api.github.com/repos/Skxrxt/MedSurg/contents/MedSurg%20Software-copy/quizzes";
 
 // ========================================
 // LOAD QUIZ LIST FROM GITHUB
